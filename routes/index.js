@@ -6,4 +6,18 @@ router.get('/', function(req, res) {
   res.render('index', { title: 'Express' });
 });
 
+
+
+// Games
+//==================================================
+router.get('/games', function(req, res) {
+	res.render('games'); 
+});
+
+router.get('/games/flappy', function(req, res) {
+	res.render('flappy.hjs');
+});
+//==================================================
+
+
 module.exports = router;

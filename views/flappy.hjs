@@ -1,9 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
+    
+<head>
+  <meta charset="utf-8" />
+  <title>Flappy Game</title>
 
-	</head>
-	<body>
-		<h3> FLAPPY GAME </h3>
-	</body>
+  <style>
+    #game_div {
+      width: 500px;
+      margin: auto;
+      margin-top: 50px;
+    }
+  </style>
+
+  <script type="text/javascript" src="/FlappyRes/phaser.min.js"></script>
+  <script type="text/javascript" src="/FlappyRes/load.js"></script>
+  <script type="text/javascript" src="/FlappyRes/menu.js"></script>
+  <script type="text/javascript" src="/FlappyRes/play.js"></script>
+  <script type="text/javascript" src="/FlappyRes/game.js"></script>
+</head>
+
+<body>
+
+  <div id="game_div"> </div>
+
+</body>
+
 </html>

@@ -6,7 +6,7 @@
   </head>
   <body>
     <h1>{{ title }}</h1>
-   	<p> welcome to the games page</p>
+   	<p> Welcome to the games page</p>
    	<a href="/games/flappy">Flappy Game</a>
   </body>
 </html>

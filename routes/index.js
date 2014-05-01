@@ -24,4 +24,13 @@ router.get('/aboutus', function(req, res) {
 	res.render('aboutus.hjs');
 });
 
+// Projects
+router.get('/projects', function(req, res) {
+	res.render('index.hjs');
+});
+
+// Blog
+router.get('/blog', function(req, res) {
+	res.render('index.hjs');
+});
 module.exports = router;

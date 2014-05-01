@@ -18,6 +18,7 @@
   <script type="text/javascript" src="/FlappyRes/menu.js"></script>
   <script type="text/javascript" src="/FlappyRes/play.js"></script>
   <script type="text/javascript" src="/FlappyRes/game.js"></script>
+  
 </head>
 
 <body>

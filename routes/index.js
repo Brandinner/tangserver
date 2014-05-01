@@ -3,10 +3,10 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'TangServer' });
+  res.render('index', { title: '' });
 });
 
-
+// TODO: invalid url links to index.
 
 // Games
 //==================================================

@@ -19,5 +19,9 @@ router.get('/games/flappy', function(req, res) {
 });
 //==================================================
 
+// About us
+router.get('/aboutus', function(req, res) {
+	res.render('aboutus.hjs');
+});
 
 module.exports = router;

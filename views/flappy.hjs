@@ -24,6 +24,7 @@
 <body>
 
   <div id="game_div"> </div>
+  <a href="/">GO HOME </a>
 
 </body>
 

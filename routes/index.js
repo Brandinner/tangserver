@@ -15,22 +15,22 @@ router.get('/games', function(req, res) {
 });
 
 router.get('/games/flappy', function(req, res) {
-	res.render('flappy.hjs');
+	res.render('flappy');
 });
 //==================================================
 
 // About us
 router.get('/aboutus', function(req, res) {
-	res.render('aboutus.hjs');
+	res.render('aboutus');
 });
 
 // Projects
 router.get('/projects', function(req, res) {
-	res.render('index.hjs');
+	res.render('index', { title: ''});
 });
 
 // Blog
 router.get('/blog', function(req, res) {
-	res.render('index.hjs');
+	res.render('index', { title: ''});
 });
 module.exports = router;

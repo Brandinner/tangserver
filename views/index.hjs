@@ -8,14 +8,14 @@
 <body>
 
     <div class="header">
-    <h3> ALEX & BRANDON <br> TANG </h3>
-
+        <h3> ALEX & BRANDON <br> TANG </h3>
     </div>
     <div class="wrapper">
         <h1>
     		<a href="/games">Games</a> <br>
     		<a href="/aboutus">About Us</a> <br>
     		<a href="/projects">Projects</a>
+            <a href="/blog">Blog</a>
         </h1>
     </div>
 

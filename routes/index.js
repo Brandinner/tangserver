@@ -33,4 +33,13 @@ router.get('/projects', function(req, res) {
 router.get('/blog', function(req, res) {
 	res.render('index', { title: ''});
 });
+
+
+// NobleGrill
+router.get('/noblegrill', function(req, res) {
+	res.render('noblegrill');
+});
+
+
+
 module.exports = router;

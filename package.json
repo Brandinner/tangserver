@@ -13,6 +13,17 @@
     "body-parser": "~1.0.0",
     "debug": "~0.7.4",
     "hjs": "~0.0.6",
-    "less-middleware": "0.1.15"
+    "less-middleware": "0.1.15",
+    "jquery": "2.1.1",
+    "bootstrap": "latest",
+    "bower": "latest"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-qunit": "~0.4.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-concat": "~0.4.0"
   }
 }

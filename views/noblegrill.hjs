@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <link rel="shortcut icon" href="/bootstrap/assets/ico/favicon.ico">
+    <link rel="shortcut icon" href="/images/favicon.ico">
 
     <title>The Noble Grill</title>
 
@@ -18,9 +18,9 @@
     <script type="text/javascript">
       $(document).ready(function(){
         $('.carousel').carousel({
-          interval:1000
+          interval: 1000;
         });
-      })
+      });
     </script>
   </head>
 
@@ -28,41 +28,88 @@
     
     <div class="container">
       <!-- Title -->
-      <div class="row">
-        <img src="/images/banner"/>
+      <div id="ngBanner" class="row">
+        <nav class="navbar navbar-ng" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><span class="navlogo">THE NOBLE GRILL</span></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#ngaboutus"><span class="navtext">About Us</span></a></li>
+                <li><a href="#ngmenu"><span class="navtext">Our Menu</span></a></li>
+                <li><a href="#ngcontact"><span class="navtext">Contact Us</span></a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
       </div>
 
+    
       <!-- Carousel -->
-      <div class="row">
-        <div id="ngCarousel" class="carousel slide" data-ride="carousel">
+      <div class="row" style="">
+        <div id="ngCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom: 2em;">
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#ngCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#ngCarousel" data-slide-to="1"></li>
             <li data-target="#ngCarousel" data-slide-to="2"></li>
+            <li data-target="#ngCarousel" data-slide-to="3"></li>
+            <li data-target="#ngCarousel" data-slide-to="4"></li>
+            <li data-target="#ngCarousel" data-slide-to="5"></li>
+
           </ol>
+
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-              <img src="/images/NG-BG1.jpg">
+              
+                <img src="/images/carousel/IMG_0077.JPG" class="img-responsive">
+              
               <div class="carousel-caption">
-                FACADE
+                Shrimp Avocado Sandwich
               </div>
             </div>
             <div class="item">
-              <img src="/images/NG-BG2.jpg">
+              <img src="/images/carousel/IMG_0082.JPG" class="img-responsive">
               <div class="carousel-caption">
-                BEEF ROAST
+                Our Famous Beef Dip
               </div>
             </div>
             <div class="item">
-              <img src="/images/BannerBG.jpg">
+              <img src="/images/carousel/IMG_0119.JPG" class="img-responsive">
               <div class="carousel-caption">
-                BANNER
+                Majestic Club
               </div>
             </div>
-            DESCRIPTION AT BOTTOM
+            <div class="item">
+              <img src="/images/carousel/IMG_0168.JPG" class="img-responsive">
+              <div class="carousel-caption">
+                Mixed Greens w/ Chicken
+              </div>
+            </div>
+            <div class="item">
+              <img src="/images/carousel/IMG_0126.JPG" class="img-responsive">
+              <div class="carousel-caption">
+                Noble Sandwich
+              </div>
+            </div>
+            <div class="item">
+              <img src="/images/carousel/IMG_0144.JPG" class="img-responsive">
+              <div class="carousel-caption">
+                Grilled Marinated Veggies w/ Chicken
+              </div>
+            </div>
           </div>
 
           <!-- Controls -->
@@ -75,25 +122,90 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="ngaboutus">
-          about us
+
+      <!-- Menu -->
+      <div class="ngbreak"></div>
+      <div class="row ngslide" style="height: 90vh;">
+        <div id="ngmenu">
+          <h1>Our Menu</h1>
+          <div class="col-md-3"><img class="img-responsive menu-combo" src="/images/menu/combo 1.JPG"/><span class="menu-combo-label">Combo #1  - Cheese Tortellini Salad</span></div>
+          <div class="col-md-3"><img class="img-responsive menu-combo" src="/images/menu/combo 2.JPG"/><span class="menu-combo-label">Combo #2  - Chicken Caesar Salad</span></div>
+          <div class="col-md-3"><img class="img-responsive menu-combo" src="/images/menu/combo 3.JPG"/><span class="menu-combo-label">Combo #3  - Chicken Penne</span></div>
+          <div class="col-md-3"><img class="img-responsive menu-combo" src="/images/menu/combo 4.JPG"/><span class="menu-combo-label">Combo #4  - Sirloin Steak Sandwich</span></div>
+          <div class="col-md-3"><img class="img-responsive menu-combo" src="/images/menu/combo 5.JPG"/><span class="menu-combo-label">Combo #5  - Pesto Chicken Sandwich</span></div>
+          <div class="col-md-3"><img class="img-responsive menu-combo" src="/images/menu/combo 6.JPG"/><span class="menu-combo-label">Combo #6  - Pulled Pork Sandwich</span></div>
+          <div class="col-md-3"><img class="img-responsive menu-combo" src="/images/menu/combo 7.JPG"/><span class="menu-combo-label">Combo #7  - Honey Balsamic Beef Sandwich</span></div>
+          <div class="col-md-3"><img class="img-responsive menu-combo" src="/images/menu/combo 8.JPG"/><span class="menu-combo-label">Combo #8  -Beef Feta and Tzatziki Wrap</span></div>
+          
+
+
 
         </div>
       </div>
-      <div class="row">
-        <div class="ngcontact">
-          contact
-        
-        </div>
-      </div>
-      <div class="row">
-        <div class="menu">
-            menu
+
+      <!-- About Us -->
+      <div class="ngbreak"></div>
+      <div class="row ngslide aboutusslide" style="height: 90vh;">
+        <div id="ngaboutus">
+          <div class="media">
+            <div class="media-body">
+              <h1 class="media-heading">About Us</h1>
+              <p class="lead">we're the noble grill and stuff and stuff</p>
+            </div>
+          </div>
 
         </div>
+      </div>
+
+      <!-- Contact -->
+      <div class="ngbreak"></div>
+
+      <div class="row ngslide" style="height: 90vh;">
+        <div id="ngcontact">
+          <h1 class="row-header">Contact Us</h1>
+          <div class="slide-content">
+          <div class="media" style="height:100%; width:100%;">
+            
+            <div class="media-body" style="padding-left:60px; padding-right:20px;">
+              <table>
+                <tr>
+                  <td>
+                    <table id="contact-table" style="width:600px;">
+                      <tr>
+                        <th class="contact-table-cell">
+                          <p class="lead"><b>Find us At:</b></p></th>
+                        <th class="contact-table-cell"><p class="lead"><b>Hours:</b></p></th>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p class="lead text-left contact-table-cell">Royal Center<br> Unit #226<br>1055 West Georgia St.<br> Vancouver, BC<br>V6E-3P3<br>604-662-7782</p>
+                        </td>
+                        <td style="vertical-align: top;">
+                          
+                          <p class="lead text-left contact-table-cell">Monday - Friday: 9:00am-5:00pm</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2602.534880610367!2d-123.121795!3d49.28521!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54867181a4e231c3%3A0xfadd19821c8838a!2sNoble+Grill!5e0!3m2!1sen!2sca!4v1399944232148" width="400" height="300" frameborder="0" style="border:0">
+              </iframe>
+                  </td>
+                </tr>
+              </table>
+              
+              
+            </div>
+          </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row" style="height: 5vh; background-color: #B29980;">
       </div>
     </div>
+  
 
 
     <!-- Bootstrap core JavaScript

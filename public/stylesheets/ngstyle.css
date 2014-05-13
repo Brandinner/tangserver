@@ -1,3 +1,134 @@
-#tng{
-	color: white;
+body{
+	background-color: 	#EEEEEE;
+}
+
+h1{
+	color: #60311B;
+}
+.container{
+	width: 80%;
+	height: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/* Carousel*/
+.carousel{
+	height: 90vh;
+	width: 100%;
+}
+
+/* Carousel Image */
+.carousel-inner .item img{
+	height: 90vh;
+	width:  100%;
+}
+
+/* Carousel Caption */
+.carousel-caption{
+	font-family: "DIN Alternate";
+	font-size: 18px;
+	background:rgba(0, 0, 0, 0.4);
+	border-radius: 20px;
+
+}
+
+#ngBanner{
+	
+
+}
+
+/* Slides (rows) */
+.ngslide{
+
+}
+
+/* Slide break */
+.ngbreak{
+	margin-left:30%;
+	margin-right:30%;
+	border-top: solid;
+	border-color: #60311B;
+	width:40%;
+}
+
+/* Entire Nav Bar*/
+.navbar-ng{
+	background-color: #B29980;
+}
+
+/* Navbar Selection Text*/
+.navtext{
+	color: #60311B;
+}
+
+/* Navbar Selection Text*/
+.navtext:hover{
+	color: #30190E;
+}
+
+/* Navbar Selection Hover*/
+.navbar-nav li a:hover{
+	background-color: #B29980;
+}
+/* Navbar Selection*/
+.navbar-nav li a{
+	font-size: 20px;
+}
+
+/* The Noble Grill */
+.navlogo{
+	color: #60311B;
+	font-size:40px;
+	font-family: 'DIN Alternate';
+}
+
+/* Contact Table */
+#contact-table{
+	background:rgba(1, 1, 1, 0.3);
+}
+
+/* Table Element*/
+.contact-table-cell{
+	padding:20px;
+}
+
+#ngcontact{
+	padding:30px;
+}
+
+#ngmenu{
+	padding:0px;
+}
+
+#ngaboutus{
+	padding:30px;
+}
+
+
+.slide-content{
+	margin-top: 5em;
+}
+
+.row-header{
+
+}
+
+.menu-combo{
+	height: 200px;
+	width: 300px;
+	border: solid 4px;
+	border-color: #60311B;
+
+}
+
+.menu-combo-label{
+	font-family: "DIN Alternate";
+	font-size: 14px;
+	background:rgba(162, 66, 0, 0.5);
+	border-radius: 5px;
+}
+
+.aboutusslide{
+	
 }
